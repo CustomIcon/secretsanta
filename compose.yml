@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: secret-friends
+    ports:
+      - "3111:4173"  # Map port 5173 on the host to port 5173 in the container
+    volumes:
+      - ./application:/app  # Mount local directory for live changes (optional)
+    environment:
+      - NODE_ENV=production

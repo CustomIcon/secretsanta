@@ -18,7 +18,7 @@ export const en = {
   home: {
     vanity: "Project started in winter 2015 by Maël",
     sponsor: "Support me on GitHub",
-    title: "Secret Santa Planner",
+    title: "Secret Friend Planner",
     explanation: [
       "Welcome! This tool will help you arrange your holiday gift exchanges. Simply list all participants, and we'll randomly assign pairings according to the rules you set.",
       "You'll receive a unique link for each participant, which you'll have to share yourself (via email, Slack, etc). [<exampleLink>Example link</exampleLink>]",
@@ -27,11 +27,11 @@ export const en = {
     exampleLink: "Example link",
   },
   pairing: {
-    title: "Your Secret Santa Assignment",
+    title: "Your Secret Friend Assignment",
     assignment: "Welcome, <name/>! You have been picked to get a gift for:",
     loading: "Loading...",
     error: "Failed to decrypt the message. The link might be invalid.",
-    startYourOwn: "Start a Secret Santa!"
+    startYourOwn: "Start a Secret Friend!"
   },
   participants: {
     title: "Participants",
